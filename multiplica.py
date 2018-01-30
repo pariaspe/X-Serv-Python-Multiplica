@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for i in list(range(1,11)):
-    print("Tabla del ", i)
-    for j in list(range(1,11)):
-        print(i, " por ", j , " es ", i*j)
+for i in range(1,11):
+    print("\nTabla del ", i)
+    for j in range(1,11):
+        print(i, "por", j , "es", i*j)
